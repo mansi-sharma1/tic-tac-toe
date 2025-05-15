@@ -20,9 +20,10 @@ body{
 button{
     
     border: none;
-    width: 90px;
-    height: 80px;
+    width: 100px;
+    height: 85px;
     font-size: 42px;
+    border-radius: 5px;
     font-weight: 700;
     color: brown ;
     cursor: pointer;
