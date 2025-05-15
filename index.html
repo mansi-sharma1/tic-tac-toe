@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic tak toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="main">
+        <h1 style="color: skyblue; text-shadow: 3px 2px 2px rgb(243, 150, 63); font-size: 44px;">Tic Tac Toe</h1>
+        <div class="game">
+      <button class="cell" id="cell0" onclick="ticTacToe(0)"></button>
+      <button class="cell" id="cell1" onclick="ticTacToe(1)"></button>
+      <button class="cell" id="cell2" onclick="ticTacToe(2)"></button>
+      <button class="cell" id="cell3" onclick="ticTacToe(3)"></button>
+      <button class="cell" id="cell4" onclick="ticTacToe(4)"></button>
+      <button class="cell" id="cell5" onclick="ticTacToe(5)"></button>
+      <button class="cell" id="cell6" onclick="ticTacToe(6)"></button>
+      <button class="cell" id="cell7" onclick="ticTacToe(7)"></button>
+      <button class="cell" id="cell8" onclick="ticTacToe(8)"></button>
+      </div>
+
+             <h1 id="turn" style="color: blue;">O's turn</h1>
+             <h1 id="result" style="color: rgb(7, 66, 90);" ></h1>
+      <button class="restart" onclick="restartGame()">Restart</button>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
